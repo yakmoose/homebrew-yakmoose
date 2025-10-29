@@ -8,14 +8,14 @@
 class Envop < Formula
   desc ""
   homepage "https://github.com/yakmoose/envop"
-  url "https://github.com/yakmoose/envop/archive/refs/tags/v0.2.5.tar.gz"
-  sha256 "d740cf13d49913216b795c949a626cb05cefdb9a65f1dc3c1691d0a162f0d22f"
+  url "https://github.com/yakmoose/envop/archive/refs/tags/v0.2.6.tar.gz"
+  sha256 "31b3f5df3e9525f72e7445d619de927856a5fac2fc56a8c2307faa4c4b764f94"
   license "MIT"
 
   depends_on "go" => :build
 
   bottle do
-    root_url "https://github.com/yakmoose/envop/releases/download/v0.2.5"
+    root_url "https://github.com/yakmoose/envop/releases/download/v0.2.6"
   end
   head do
     url "https://github.com/yakmoose/envop.git", branch: "main"
